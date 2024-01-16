@@ -1,65 +1,74 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,react
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,react
-
-### react ###
-.DS_*
-*.log
-logs
-**/*.backup.*
-**/*.back.*
-
+# Node.js
 node_modules/
-bower_components
 
-*.sublime*
+# Next.js
+.next/
+next-env.d.ts
 
-psd
-thumb
-sketch
+# IDEs
+.idea/
+.vscode/
 
-### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
+# Logs
+logs/
+*.log
 
-# Local History for Visual Studio Code
-.history/
+# Build
+dist/
+build/
 
-# Built Visual Studio Code Extensions
-*.vsix
+# Environment Variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-.ionide
+# Dependency directories
+/jspm_packages/
+/bower_components/
 
-### Windows ###
-# Windows thumbnail cache files
+# Output of 'npm pack'
+*.tgz
+
+# Yarn
+.yarn
+yarn-error.log
+.pnp.*
+.env.local
+.env.production.local
+.env.test.local
+
+# Typescript
+*.tsbuildinfo
+
+# Windows
 Thumbs.db
-Thumbs.db:encryptable
 ehthumbs.db
-ehthumbs_vista.db
-
-# Dump file
-*.stackdump
-
-# Folder config file
-[Dd]esktop.ini
-
-# Recycle Bin used on file shares
+Desktop.ini
 $RECYCLE.BIN/
+System Volume Information/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Windows shortcuts
-*.lnk
+# Thumbnails
+._*
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,react
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB/
+.AppleDesktop/
+Network Trash Folder/
+Temporary Items/
+.apdisk
+
+# Jest
+coverage/
+
+# Custom
+/custom_directory/

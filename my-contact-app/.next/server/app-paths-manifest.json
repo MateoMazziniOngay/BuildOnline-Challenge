@@ -1,6 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/icon.ico/route": "app/icon.ico/route.js",
-  "/api/identity-count/route": "app/api/identity-count/route.js",
-  "/verify/page": "app/verify/page.js"
-}
